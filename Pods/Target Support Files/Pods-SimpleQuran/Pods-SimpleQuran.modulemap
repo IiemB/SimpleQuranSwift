@@ -1,0 +1,6 @@
+framework module Pods_SimpleQuran {
+  umbrella header "Pods-SimpleQuran-umbrella.h"
+
+  export *
+  module * { export * }
+}
