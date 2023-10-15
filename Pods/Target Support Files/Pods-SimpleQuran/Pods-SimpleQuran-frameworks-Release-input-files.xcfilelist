@@ -1,4 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/AlertToast/AlertToast.framework
 ${BUILT_PRODUCTS_DIR}/InjectHotReload/InjectHotReload.framework

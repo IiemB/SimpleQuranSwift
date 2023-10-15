@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D579CB92ADB9B6600AFAE81 /* Quran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CB82ADB9B6600AFAE81 /* Quran.swift */; };
+		1D579CBB2ADB9B9500AFAE81 /* quran.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D579CBA2ADB9B9500AFAE81 /* quran.json */; };
+		1D579CC02ADB9D2B00AFAE81 /* QuranViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */; };
 		1DB66FEC2AD19C58002FDA84 /* SimpleQuranApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */; };
 		1DB66FEE2AD19C58002FDA84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB66FED2AD19C58002FDA84 /* ContentView.swift */; };
-		1DB66FF02AD19C58002FDA84 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB66FEF2AD19C58002FDA84 /* Item.swift */; };
 		1DB66FF22AD19C59002FDA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB66FF12AD19C59002FDA84 /* Assets.xcassets */; };
 		1DB66FF62AD19C59002FDA84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB66FF52AD19C59002FDA84 /* Preview Assets.xcassets */; };
 		340CDFDA4AD5CC2ABD08D676 /* Pods_SimpleQuran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3953FD94F39BB7C2AAF5F7 /* Pods_SimpleQuran.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D579CB82ADB9B6600AFAE81 /* Quran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quran.swift; sourceTree = "<group>"; };
+		1D579CBA2ADB9B9500AFAE81 /* quran.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quran.json; sourceTree = "<group>"; };
+		1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranViewModel.swift; sourceTree = "<group>"; };
 		1DB66FE82AD19C58002FDA84 /* SimpleQuran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQuran.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleQuranApp.swift; sourceTree = "<group>"; };
 		1DB66FED2AD19C58002FDA84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1DB66FEF2AD19C58002FDA84 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1DB66FF12AD19C59002FDA84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB66FF32AD19C59002FDA84 /* SimpleQuran.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleQuran.entitlements; sourceTree = "<group>"; };
 		1DB66FF52AD19C59002FDA84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -40,6 +44,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D579CB12ADA6F8A00AFAE81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D579CB82ADB9B6600AFAE81 /* Quran.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D579CBE2ADB9D1800AFAE81 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		1DB66FDF2AD19C58002FDA84 = {
 			isa = PBXGroup;
 			children = (
@@ -61,9 +81,11 @@
 		1DB66FEA2AD19C58002FDA84 /* SimpleQuran */ = {
 			isa = PBXGroup;
 			children = (
+				1D579CBA2ADB9B9500AFAE81 /* quran.json */,
+				1D579CB12ADA6F8A00AFAE81 /* Models */,
 				1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */,
+				1D579CBE2ADB9D1800AFAE81 /* ViewModels */,
 				1DB66FED2AD19C58002FDA84 /* ContentView.swift */,
-				1DB66FEF2AD19C58002FDA84 /* Item.swift */,
 				1DB66FF12AD19C59002FDA84 /* Assets.xcassets */,
 				1DB66FF32AD19C59002FDA84 /* SimpleQuran.entitlements */,
 				1DB66FF42AD19C59002FDA84 /* Preview Content */,
@@ -93,7 +115,6 @@
 				CAC475D537EAF01C033F0A69 /* Pods-SimpleQuran.debug.xcconfig */,
 				C2FEBC27436D10D3D6D4B6B4 /* Pods-SimpleQuran.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,6 +136,8 @@
 			dependencies = (
 			);
 			name = SimpleQuran;
+			packageProductDependencies = (
+			);
 			productName = SimpleQuran;
 			productReference = 1DB66FE82AD19C58002FDA84 /* SimpleQuran.app */;
 			productType = "com.apple.product-type.application";
@@ -143,6 +166,8 @@
 				Base,
 			);
 			mainGroup = 1DB66FDF2AD19C58002FDA84;
+			packageReferences = (
+			);
 			productRefGroup = 1DB66FE92AD19C58002FDA84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -157,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D579CBB2ADB9B9500AFAE81 /* quran.json in Resources */,
 				1DB66FF62AD19C59002FDA84 /* Preview Assets.xcassets in Resources */,
 				1DB66FF22AD19C59002FDA84 /* Assets.xcassets in Resources */,
 			);
@@ -211,9 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D579CB92ADB9B6600AFAE81 /* Quran.swift in Sources */,
 				1DB66FEE2AD19C58002FDA84 /* ContentView.swift in Sources */,
-				1DB66FF02AD19C58002FDA84 /* Item.swift in Sources */,
 				1DB66FEC2AD19C58002FDA84 /* SimpleQuranApp.swift in Sources */,
+				1D579CC02ADB9D2B00AFAE81 /* QuranViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +374,7 @@
 				DEVELOPMENT_TEAM = 2CAR96C925;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -386,6 +414,7 @@
 				DEVELOPMENT_TEAM = 2CAR96C925;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
