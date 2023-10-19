@@ -18,7 +18,15 @@ struct Quran: Codable {
 
 // MARK: - Surah
 
-struct Surah: Codable, Identifiable {
+struct Surah: Codable, Identifiable, Hashable {
+    static func == (lhs: Surah, rhs: Surah) -> Bool {
+        lhs.id == rhs.id
+    }
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+
     var id: String {
         UUID().uuidString
     }
@@ -29,6 +37,20 @@ struct Surah: Codable, Identifiable {
     let tafsir: DatumTafsir?
     let preBismillah: PreBismillah?
     let verses: [Verse]?
+
+    var surahName: String {
+        name?.short ?? "Surah Name"
+    }
+
+    var surahNumber: String {
+        "\(number ?? 0)".convertedDigitsToLocale(Locale(identifier: "AR"))
+    }
+
+    var surahVerses: [Verse] {
+        verses ?? [Verse]()
+    }
+
+    static let sample = Surah(number: nil, sequence: nil, numberOfVerses: nil, name: nil, revelation: nil, tafsir: nil, preBismillah: nil, verses: nil)
 }
 
 // MARK: - Name
@@ -86,13 +108,25 @@ struct DatumTafsir: Codable {
 
 // MARK: - Verse
 
-struct Verse: Codable {
+struct Verse: Codable, Identifiable {
+    var id: String {
+        UUID().uuidString
+    }
+
     let number: Number?
     let meta: Meta?
     let text: QuranText?
     let translation: Translation?
     let audio: Audio?
     let tafsir: VerseTafsir?
+
+    var arabText: String {
+        (text?.arab ?? "")
+    }
+
+    var verseNumber: String {
+        "\(number?.inSurah ?? 0)".convertedDigitsToLocale(Locale(identifier: "AR"))
+    }
 }
 
 // MARK: - Meta

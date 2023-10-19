@@ -5,16 +5,20 @@
 //  Created by UKUR KREASI on 07/10/23.
 //
 
+@_exported import InjectHotReload
 import SwiftUI
 
 @main
 struct SimpleQuranApp: App {
-    let quranViewModel = QuranViewModel()
+    @ObserveInjection var redraw
+
+    @StateObject var quranViewModel = QuranViewModel()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuranView()
                 .environment(quranViewModel)
+                .enableInjection()
         }
     }
 }

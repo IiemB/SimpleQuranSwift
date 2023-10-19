@@ -7,26 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2298CB2ADF885F007C1D70 /* IsepMisbah.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2298C82ADF885F007C1D70 /* IsepMisbah.ttf */; };
+		1D2298CC2ADF885F007C1D70 /* AlQalamMajeed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2298C92ADF885F007C1D70 /* AlQalamMajeed.ttf */; };
+		1D2298CD2ADF885F007C1D70 /* NooreHira.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2298CA2ADF885F007C1D70 /* NooreHira.ttf */; };
+		1D2298D12ADFAF3B007C1D70 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2298D02ADFAF3B007C1D70 /* Settings.swift */; };
+		1D3F9CC42ADE7ADA006A70EE /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F9CC32ADE7ADA006A70EE /* SettingsViewModel.swift */; };
+		1D3F9CCA2ADE8046006A70EE /* SettingsToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F9CC92ADE8046006A70EE /* SettingsToolbar.swift */; };
+		1D3F9CCC2ADE8188006A70EE /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F9CCB2ADE8188006A70EE /* CustomFont.swift */; };
 		1D579CB92ADB9B6600AFAE81 /* Quran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CB82ADB9B6600AFAE81 /* Quran.swift */; };
 		1D579CBB2ADB9B9500AFAE81 /* quran.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D579CBA2ADB9B9500AFAE81 /* quran.json */; };
 		1D579CC02ADB9D2B00AFAE81 /* QuranViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */; };
+		1D579CC22ADBDD1900AFAE81 /* SurahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CC12ADBDD1900AFAE81 /* SurahView.swift */; };
+		1D579CC42ADCE03D00AFAE81 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CC32ADCE03D00AFAE81 /* Extensions.swift */; };
 		1DB66FEC2AD19C58002FDA84 /* SimpleQuranApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */; };
-		1DB66FEE2AD19C58002FDA84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB66FED2AD19C58002FDA84 /* ContentView.swift */; };
+		1DB66FEE2AD19C58002FDA84 /* QuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB66FED2AD19C58002FDA84 /* QuranView.swift */; };
 		1DB66FF22AD19C59002FDA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB66FF12AD19C59002FDA84 /* Assets.xcassets */; };
 		1DB66FF62AD19C59002FDA84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB66FF52AD19C59002FDA84 /* Preview Assets.xcassets */; };
+		1DDDFAB52AE0E4A30071193F /* UserDefaultsValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDDFAB42AE0E4A30071193F /* UserDefaultsValues.swift */; };
 		340CDFDA4AD5CC2ABD08D676 /* Pods_SimpleQuran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3953FD94F39BB7C2AAF5F7 /* Pods_SimpleQuran.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D2298C82ADF885F007C1D70 /* IsepMisbah.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = IsepMisbah.ttf; path = ../../../simple_quran/assets/fonts/IsepMisbah.ttf; sourceTree = "<group>"; };
+		1D2298C92ADF885F007C1D70 /* AlQalamMajeed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AlQalamMajeed.ttf; path = ../../../simple_quran/assets/fonts/AlQalamMajeed.ttf; sourceTree = "<group>"; };
+		1D2298CA2ADF885F007C1D70 /* NooreHira.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NooreHira.ttf; path = ../../../simple_quran/assets/fonts/NooreHira.ttf; sourceTree = "<group>"; };
+		1D2298D02ADFAF3B007C1D70 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1D3F9CC22ADE7A2E006A70EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1D3F9CC32ADE7ADA006A70EE /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		1D3F9CC92ADE8046006A70EE /* SettingsToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsToolbar.swift; sourceTree = "<group>"; };
+		1D3F9CCB2ADE8188006A70EE /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		1D579CB82ADB9B6600AFAE81 /* Quran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quran.swift; sourceTree = "<group>"; };
 		1D579CBA2ADB9B9500AFAE81 /* quran.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quran.json; sourceTree = "<group>"; };
 		1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranViewModel.swift; sourceTree = "<group>"; };
+		1D579CC12ADBDD1900AFAE81 /* SurahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahView.swift; sourceTree = "<group>"; };
+		1D579CC32ADCE03D00AFAE81 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1DB66FE82AD19C58002FDA84 /* SimpleQuran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQuran.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleQuranApp.swift; sourceTree = "<group>"; };
-		1DB66FED2AD19C58002FDA84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DB66FED2AD19C58002FDA84 /* QuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranView.swift; sourceTree = "<group>"; };
 		1DB66FF12AD19C59002FDA84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB66FF32AD19C59002FDA84 /* SimpleQuran.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleQuran.entitlements; sourceTree = "<group>"; };
 		1DB66FF52AD19C59002FDA84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DDDFAB42AE0E4A30071193F /* UserDefaultsValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsValues.swift; sourceTree = "<group>"; };
 		4D3953FD94F39BB7C2AAF5F7 /* Pods_SimpleQuran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleQuran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FEBC27436D10D3D6D4B6B4 /* Pods-SimpleQuran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleQuran.release.xcconfig"; path = "Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran.release.xcconfig"; sourceTree = "<group>"; };
 		CAC475D537EAF01C033F0A69 /* Pods-SimpleQuran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleQuran.debug.xcconfig"; path = "Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,10 +65,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D2298C12ADF87A9007C1D70 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				1D2298C92ADF885F007C1D70 /* AlQalamMajeed.ttf */,
+				1D2298C82ADF885F007C1D70 /* IsepMisbah.ttf */,
+				1D2298CA2ADF885F007C1D70 /* NooreHira.ttf */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		1D3F9CC52ADE7B9B006A70EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F9CC82ADE8024006A70EE /* ViewModifiers */,
+				1DB66FED2AD19C58002FDA84 /* QuranView.swift */,
+				1D579CC12ADBDD1900AFAE81 /* SurahView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D3F9CC82ADE8024006A70EE /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1D3F9CC92ADE8046006A70EE /* SettingsToolbar.swift */,
+				1D3F9CCB2ADE8188006A70EE /* CustomFont.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 		1D579CB12ADA6F8A00AFAE81 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				1D579CB82ADB9B6600AFAE81 /* Quran.swift */,
+				1D2298D02ADFAF3B007C1D70 /* Settings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -56,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */,
+				1D3F9CC32ADE7ADA006A70EE /* SettingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -63,10 +115,10 @@
 		1DB66FDF2AD19C58002FDA84 = {
 			isa = PBXGroup;
 			children = (
-				1DB66FEA2AD19C58002FDA84 /* SimpleQuran */,
-				1DB66FE92AD19C58002FDA84 /* Products */,
-				DB1D2045A3BE37CB0ABCFE72 /* Pods */,
 				AC047188E9B4C4E9F9106DF3 /* Frameworks */,
+				DB1D2045A3BE37CB0ABCFE72 /* Pods */,
+				1DB66FE92AD19C58002FDA84 /* Products */,
+				1DB66FEA2AD19C58002FDA84 /* SimpleQuran */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +133,17 @@
 		1DB66FEA2AD19C58002FDA84 /* SimpleQuran */ = {
 			isa = PBXGroup;
 			children = (
-				1D579CBA2ADB9B9500AFAE81 /* quran.json */,
-				1D579CB12ADA6F8A00AFAE81 /* Models */,
 				1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */,
-				1D579CBE2ADB9D1800AFAE81 /* ViewModels */,
-				1DB66FED2AD19C58002FDA84 /* ContentView.swift */,
 				1DB66FF12AD19C59002FDA84 /* Assets.xcassets */,
+				1DDDFAB32AE0E4850071193F /* Utils */,
 				1DB66FF32AD19C59002FDA84 /* SimpleQuran.entitlements */,
+				1D579CBA2ADB9B9500AFAE81 /* quran.json */,
+				1D3F9CC22ADE7A2E006A70EE /* Info.plist */,
+				1D2298C12ADF87A9007C1D70 /* CustomFonts */,
+				1D579CB12ADA6F8A00AFAE81 /* Models */,
 				1DB66FF42AD19C59002FDA84 /* Preview Content */,
+				1D579CBE2ADB9D1800AFAE81 /* ViewModels */,
+				1D3F9CC52ADE7B9B006A70EE /* Views */,
 			);
 			path = SimpleQuran;
 			sourceTree = "<group>";
@@ -99,6 +154,15 @@
 				1DB66FF52AD19C59002FDA84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DDDFAB32AE0E4850071193F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D579CC32ADCE03D00AFAE81 /* Extensions.swift */,
+				1DDDFAB42AE0E4A30071193F /* UserDefaultsValues.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		AC047188E9B4C4E9F9106DF3 /* Frameworks */ = {
@@ -183,8 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D579CBB2ADB9B9500AFAE81 /* quran.json in Resources */,
+				1D2298CC2ADF885F007C1D70 /* AlQalamMajeed.ttf in Resources */,
 				1DB66FF62AD19C59002FDA84 /* Preview Assets.xcassets in Resources */,
 				1DB66FF22AD19C59002FDA84 /* Assets.xcassets in Resources */,
+				1D2298CD2ADF885F007C1D70 /* NooreHira.ttf in Resources */,
+				1D2298CB2ADF885F007C1D70 /* IsepMisbah.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +305,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D579CB92ADB9B6600AFAE81 /* Quran.swift in Sources */,
-				1DB66FEE2AD19C58002FDA84 /* ContentView.swift in Sources */,
+				1D579CC42ADCE03D00AFAE81 /* Extensions.swift in Sources */,
+				1DB66FEE2AD19C58002FDA84 /* QuranView.swift in Sources */,
+				1D3F9CCA2ADE8046006A70EE /* SettingsToolbar.swift in Sources */,
+				1D3F9CCC2ADE8188006A70EE /* CustomFont.swift in Sources */,
 				1DB66FEC2AD19C58002FDA84 /* SimpleQuranApp.swift in Sources */,
 				1D579CC02ADB9D2B00AFAE81 /* QuranViewModel.swift in Sources */,
+				1D579CC22ADBDD1900AFAE81 /* SurahView.swift in Sources */,
+				1D2298D12ADFAF3B007C1D70 /* Settings.swift in Sources */,
+				1DDDFAB52AE0E4A30071193F /* UserDefaultsValues.swift in Sources */,
+				1D3F9CC42ADE7ADA006A70EE /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +450,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleQuran/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -391,6 +466,10 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iiemb.SimpleQuran;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -416,6 +495,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleQuran/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
