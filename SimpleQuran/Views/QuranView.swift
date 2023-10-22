@@ -11,15 +11,20 @@ struct QuranView: View {
     @ObserveInjection var redraw
 
     @EnvironmentObject var quranViewModel: QuranViewModel
+    @StateObject var router: RouterViewModel = .main
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $router.path) {
             view
                 .navigationDestination(for: Surah.self) { surah in
                     SurahView(surah: surah)
                 }
+                .navigationDestination(for: SavedVerse.self) { savedVerse in
+                    SurahView(surah: savedVerse.surah, verse: savedVerse.verse)
+                }
                 .withCustomTitleFont("القرآن")
                 .withSettingsMenuItem()
+                .withSavedVerseToolbar()
         }
         .enableInjection()
     }

@@ -108,9 +108,13 @@ struct DatumTafsir: Codable {
 
 // MARK: - Verse
 
-struct Verse: Codable, Identifiable {
-    var id: String {
-        UUID().uuidString
+struct Verse: Codable, Identifiable, Equatable {
+    static func == (lhs: Verse, rhs: Verse) -> Bool {
+        lhs.id == rhs.id
+    }
+
+    var id: Int {
+        number?.inQuran ?? 0
     }
 
     let number: Number?
@@ -125,7 +129,7 @@ struct Verse: Codable, Identifiable {
     }
 
     var verseNumber: String {
-        "\(number?.inSurah ?? 0)".convertedDigitsToLocale(Locale(identifier: "AR"))
+        " \(number?.inSurah ?? 0) ".convertedDigitsToLocale(Locale(identifier: "AR"))
     }
 }
 

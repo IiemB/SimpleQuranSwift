@@ -14,22 +14,33 @@ struct SettingsMenuItem: ViewModifier {
 
     func body(content: Content) -> some View {
         content
-            .toolbarTitleMenu {
-                Menu("Settings") {
-                    Menu("Font Size") {
-                        Picker("Font Size", selection: $settingsViewModel.fontSize) {
-                            ForEach(fontSizes, id: \.self) { size in
-                                Text("\(size)")
-                                    .tag(size)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu("settings-locale", systemImage: "gear") {
+                        Menu("language-locale") {
+                            Picker("language-locale", selection: $settingsViewModel.lang) {
+                                ForEach(Language.langs, id: \.id) { lang in
+                                    Text(lang.label)
+                                        .tag(lang)
+                                }
                             }
                         }
-                    }
 
-                    Menu("Font Style") {
-                        Picker("Font Style", selection: $settingsViewModel.fontStyle) {
-                            ForEach(CustomFontStyle.fonts, id: \.id) { customFont in
-                                Text(customFont.label)
-                                    .tag(customFont)
+                        Menu("fontSize-locale") {
+                            Picker("fontSize-locale", selection: $settingsViewModel.fontSize) {
+                                ForEach(fontSizes, id: \.self) { size in
+                                    Text("\(size)")
+                                        .tag(size)
+                                }
+                            }
+                        }
+
+                        Menu("fontStyle-locale") {
+                            Picker("fontStyle-locale", selection: $settingsViewModel.fontStyle) {
+                                ForEach(CustomFontStyle.fonts, id: \.id) { customFont in
+                                    Text(customFont.label)
+                                        .tag(customFont)
+                                }
                             }
                         }
                     }

@@ -19,11 +19,18 @@
 		1D579CC02ADB9D2B00AFAE81 /* QuranViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */; };
 		1D579CC22ADBDD1900AFAE81 /* SurahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CC12ADBDD1900AFAE81 /* SurahView.swift */; };
 		1D579CC42ADCE03D00AFAE81 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D579CC32ADCE03D00AFAE81 /* Extensions.swift */; };
+		1DB215A82AE37EEE00263300 /* SavedVersesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB215A72AE37EEE00263300 /* SavedVersesView.swift */; };
+		1DB215AA2AE3802200263300 /* SavedVerseToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB215A92AE3802200263300 /* SavedVerseToolbar.swift */; };
+		1DB215AC2AE3822100263300 /* RouterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB215AB2AE3822100263300 /* RouterViewModel.swift */; };
 		1DB66FEC2AD19C58002FDA84 /* SimpleQuranApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */; };
 		1DB66FEE2AD19C58002FDA84 /* QuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB66FED2AD19C58002FDA84 /* QuranView.swift */; };
 		1DB66FF22AD19C59002FDA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB66FF12AD19C59002FDA84 /* Assets.xcassets */; };
 		1DB66FF62AD19C59002FDA84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB66FF52AD19C59002FDA84 /* Preview Assets.xcassets */; };
 		1DDDFAB52AE0E4A30071193F /* UserDefaultsValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDDFAB42AE0E4A30071193F /* UserDefaultsValues.swift */; };
+		1DDDFAB82AE0E68C0071193F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DDDFABA2AE0E68C0071193F /* Localizable.strings */; };
+		1DDDFABE2AE0F4DA0071193F /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 1DDDFABD2AE0F4DA0071193F /* Inject */; };
+		1DDDFAC02AE1109E0071193F /* SavedVersesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDDFABF2AE1109E0071193F /* SavedVersesViewModel.swift */; };
+		1DDDFAC22AE1132A0071193F /* SavedVerse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDDFAC12AE1132A0071193F /* SavedVerse.swift */; };
 		340CDFDA4AD5CC2ABD08D676 /* Pods_SimpleQuran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3953FD94F39BB7C2AAF5F7 /* Pods_SimpleQuran.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +48,9 @@
 		1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranViewModel.swift; sourceTree = "<group>"; };
 		1D579CC12ADBDD1900AFAE81 /* SurahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahView.swift; sourceTree = "<group>"; };
 		1D579CC32ADCE03D00AFAE81 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1DB215A72AE37EEE00263300 /* SavedVersesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVersesView.swift; sourceTree = "<group>"; };
+		1DB215A92AE3802200263300 /* SavedVerseToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVerseToolbar.swift; sourceTree = "<group>"; };
+		1DB215AB2AE3822100263300 /* RouterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewModel.swift; sourceTree = "<group>"; };
 		1DB66FE82AD19C58002FDA84 /* SimpleQuran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQuran.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleQuranApp.swift; sourceTree = "<group>"; };
 		1DB66FED2AD19C58002FDA84 /* QuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranView.swift; sourceTree = "<group>"; };
@@ -48,6 +58,10 @@
 		1DB66FF32AD19C59002FDA84 /* SimpleQuran.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleQuran.entitlements; sourceTree = "<group>"; };
 		1DB66FF52AD19C59002FDA84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DDDFAB42AE0E4A30071193F /* UserDefaultsValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsValues.swift; sourceTree = "<group>"; };
+		1DDDFAB92AE0E68C0071193F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1DDDFABB2AE0E90B0071193F /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1DDDFABF2AE1109E0071193F /* SavedVersesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVersesViewModel.swift; sourceTree = "<group>"; };
+		1DDDFAC12AE1132A0071193F /* SavedVerse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVerse.swift; sourceTree = "<group>"; };
 		4D3953FD94F39BB7C2AAF5F7 /* Pods_SimpleQuran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleQuran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FEBC27436D10D3D6D4B6B4 /* Pods-SimpleQuran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleQuran.release.xcconfig"; path = "Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran.release.xcconfig"; sourceTree = "<group>"; };
 		CAC475D537EAF01C033F0A69 /* Pods-SimpleQuran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleQuran.debug.xcconfig"; path = "Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				340CDFDA4AD5CC2ABD08D676 /* Pods_SimpleQuran.framework in Frameworks */,
+				1DDDFABE2AE0F4DA0071193F /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 				1D3F9CC82ADE8024006A70EE /* ViewModifiers */,
 				1DB66FED2AD19C58002FDA84 /* QuranView.swift */,
 				1D579CC12ADBDD1900AFAE81 /* SurahView.swift */,
+				1DB215A72AE37EEE00263300 /* SavedVersesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +106,7 @@
 			children = (
 				1D3F9CC92ADE8046006A70EE /* SettingsToolbar.swift */,
 				1D3F9CCB2ADE8188006A70EE /* CustomFont.swift */,
+				1DB215A92AE3802200263300 /* SavedVerseToolbar.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -99,6 +116,7 @@
 			children = (
 				1D579CB82ADB9B6600AFAE81 /* Quran.swift */,
 				1D2298D02ADFAF3B007C1D70 /* Settings.swift */,
+				1DDDFAC12AE1132A0071193F /* SavedVerse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,7 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				1D579CBF2ADB9D2B00AFAE81 /* QuranViewModel.swift */,
+				1DB215AB2AE3822100263300 /* RouterViewModel.swift */,
 				1D3F9CC32ADE7ADA006A70EE /* SettingsViewModel.swift */,
+				1DDDFABF2AE1109E0071193F /* SavedVersesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -133,17 +153,18 @@
 		1DB66FEA2AD19C58002FDA84 /* SimpleQuran */ = {
 			isa = PBXGroup;
 			children = (
-				1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */,
-				1DB66FF12AD19C59002FDA84 /* Assets.xcassets */,
-				1DDDFAB32AE0E4850071193F /* Utils */,
 				1DB66FF32AD19C59002FDA84 /* SimpleQuran.entitlements */,
 				1D579CBA2ADB9B9500AFAE81 /* quran.json */,
 				1D3F9CC22ADE7A2E006A70EE /* Info.plist */,
+				1DB66FEB2AD19C58002FDA84 /* SimpleQuranApp.swift */,
+				1DB66FF12AD19C59002FDA84 /* Assets.xcassets */,
 				1D2298C12ADF87A9007C1D70 /* CustomFonts */,
 				1D579CB12ADA6F8A00AFAE81 /* Models */,
 				1DB66FF42AD19C59002FDA84 /* Preview Content */,
+				1DDDFAB32AE0E4850071193F /* Utils */,
 				1D579CBE2ADB9D1800AFAE81 /* ViewModels */,
 				1D3F9CC52ADE7B9B006A70EE /* Views */,
+				1DDDFABA2AE0E68C0071193F /* Localizable.strings */,
 			);
 			path = SimpleQuran;
 			sourceTree = "<group>";
@@ -193,7 +214,6 @@
 				1DB66FE42AD19C58002FDA84 /* Sources */,
 				1DB66FE52AD19C58002FDA84 /* Frameworks */,
 				1DB66FE62AD19C58002FDA84 /* Resources */,
-				36868F75C2B30BEA01ADE1DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +221,7 @@
 			);
 			name = SimpleQuran;
 			packageProductDependencies = (
+				1DDDFABD2AE0F4DA0071193F /* Inject */,
 			);
 			productName = SimpleQuran;
 			productReference = 1DB66FE82AD19C58002FDA84 /* SimpleQuran.app */;
@@ -228,9 +249,11 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 1DB66FDF2AD19C58002FDA84;
 			packageReferences = (
+				1DDDFABC2AE0F4DA0071193F /* XCRemoteSwiftPackageReference "Inject" */,
 			);
 			productRefGroup = 1DB66FE92AD19C58002FDA84 /* Products */;
 			projectDirPath = "";
@@ -249,6 +272,7 @@
 				1D579CBB2ADB9B9500AFAE81 /* quran.json in Resources */,
 				1D2298CC2ADF885F007C1D70 /* AlQalamMajeed.ttf in Resources */,
 				1DB66FF62AD19C59002FDA84 /* Preview Assets.xcassets in Resources */,
+				1DDDFAB82AE0E68C0071193F /* Localizable.strings in Resources */,
 				1DB66FF22AD19C59002FDA84 /* Assets.xcassets in Resources */,
 				1D2298CD2ADF885F007C1D70 /* NooreHira.ttf in Resources */,
 				1D2298CB2ADF885F007C1D70 /* IsepMisbah.ttf in Resources */,
@@ -280,23 +304,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		36868F75C2B30BEA01ADE1DB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -304,15 +311,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB215AA2AE3802200263300 /* SavedVerseToolbar.swift in Sources */,
 				1D579CB92ADB9B6600AFAE81 /* Quran.swift in Sources */,
+				1DDDFAC02AE1109E0071193F /* SavedVersesViewModel.swift in Sources */,
+				1DB215A82AE37EEE00263300 /* SavedVersesView.swift in Sources */,
 				1D579CC42ADCE03D00AFAE81 /* Extensions.swift in Sources */,
 				1DB66FEE2AD19C58002FDA84 /* QuranView.swift in Sources */,
 				1D3F9CCA2ADE8046006A70EE /* SettingsToolbar.swift in Sources */,
 				1D3F9CCC2ADE8188006A70EE /* CustomFont.swift in Sources */,
 				1DB66FEC2AD19C58002FDA84 /* SimpleQuranApp.swift in Sources */,
+				1DDDFAC22AE1132A0071193F /* SavedVerse.swift in Sources */,
 				1D579CC02ADB9D2B00AFAE81 /* QuranViewModel.swift in Sources */,
 				1D579CC22ADBDD1900AFAE81 /* SurahView.swift in Sources */,
 				1D2298D12ADFAF3B007C1D70 /* Settings.swift in Sources */,
+				1DB215AC2AE3822100263300 /* RouterViewModel.swift in Sources */,
 				1DDDFAB52AE0E4A30071193F /* UserDefaultsValues.swift in Sources */,
 				1D3F9CC42ADE7ADA006A70EE /* SettingsViewModel.swift in Sources */,
 			);
@@ -320,12 +332,25 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		1DDDFABA2AE0E68C0071193F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDDFAB92AE0E68C0071193F /* en */,
+				1DDDFABB2AE0E90B0071193F /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		1DB66FF72AD19C59002FDA84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -387,6 +412,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -442,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SimpleQuran/SimpleQuran.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleQuran/Preview Content\"";
@@ -487,6 +514,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SimpleQuran/SimpleQuran.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleQuran/Preview Content\"";
@@ -543,6 +571,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DDDFABC2AE0F4DA0071193F /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DDDFABD2AE0F4DA0071193F /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DDDFABC2AE0F4DA0071193F /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DB66FE02AD19C58002FDA84 /* Project object */;
 }

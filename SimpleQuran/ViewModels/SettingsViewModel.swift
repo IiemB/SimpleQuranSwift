@@ -22,6 +22,12 @@ class SettingsViewModel: Observable, ObservableObject {
         }
     }
 
+    @Published var lang: Language {
+        didSet {
+            savedSettings = savedSettings.copyWith(lang: lang)
+        }
+    }
+
     private var savedSettings: Settings {
         didSet {
             try? UserDefaultValues.setObject(savedSettings, forKey: .settings)
@@ -35,5 +41,6 @@ class SettingsViewModel: Observable, ObservableObject {
 
         self.fontSize = self.savedSettings.fontSize
         self.fontStyle = self.savedSettings.fontStyle
+        self.lang = self.savedSettings.lang
     }
 }

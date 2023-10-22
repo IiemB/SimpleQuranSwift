@@ -9,8 +9,8 @@ target 'SimpleQuran' do
 
   # pod 'SwiftDictionaryCoding'
   # pod 'Alamofire'
-  pod 'InjectHotReload'
-  pod 'AlertToast'
+  # pod 'InjectHotReload'
+  # pod 'AlertToast'
 
 end
 

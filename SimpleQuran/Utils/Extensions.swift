@@ -32,3 +32,8 @@ extension String {
         }
     }
 }
+
+extension BinaryInteger {
+    var isEven: Bool { isMultiple(of: 2) }
+    var isOdd: Bool { !isEven }
+}

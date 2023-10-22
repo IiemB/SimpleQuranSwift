@@ -38,6 +38,7 @@ struct UserDefault<T> {
 struct UserDefaultValues {
     enum Keys: String, CaseIterable {
         case settings
+        case savedVerses
     }
 
     private init() {}

@@ -7,129 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0158F623865C131CFFA4FF53FCE8B77D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1DF4A558FDC21628E1ACA9FF5B6069F3 /* SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7568A518E63AE8B8CBFA7A5271106E /* SwiftUI.swift */; };
-		3D630E2B16A33B99CDC644886A0744A7 /* Hosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2422828387B98C67B17EB340DBA69D5 /* Hosts.swift */; };
-		47AD4C479EFFE35F6F67942FC570DCF7 /* Pods-SimpleQuran-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9543E5C00610FCEB3056B7D2AF54A /* Pods-SimpleQuran-dummy.m */; };
-		481F3BE2185022F134DFD932BBD79A40 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C340372A2ECEAF97C39CAF133D418C0C /* BlurView.swift */; };
-		4EC76D2D7B41417A89FFE2440EF21CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5C7E1FD0252DFA6033E7E08D5984D7B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		61D1D4F9D20F037A1DE5285FD465D338 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E3F1EBA3CD96B398AAE6493F53810 /* Inject.swift */; };
-		633E508FC7A75E6B1265DCF8E8AF0A1B /* Pods-SimpleQuran-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DCEEBCCE5C6F1F74DE6A79149DD130 /* Pods-SimpleQuran-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EA08F424ACCD3B0D6222BEF90912961 /* AlertToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4255B7B84DB1D708B6EA78F4E5BE85 /* AlertToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D823277A0F4648296359B25793612B4 /* InjectHotReload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B19164095B083BCDAE6C0D959986A7 /* InjectHotReload-dummy.m */; };
-		89068BEF39B046B28FD6DA14201044DE /* AlertToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CC9C372B9AA3B4AAB75D37793224B /* AlertToast.swift */; };
-		90E25202552407CD82CC306981BA8425 /* KitFrameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8A7541B1B65E1C6ACE11C7CFDE8F6 /* KitFrameworks.swift */; };
-		ABCC96A3F5A122791DAB8A1CFA9BD50D /* AlertToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C79C505E7072885BAB17B5254C510D /* AlertToast-dummy.m */; };
-		C6E1AD4787DA3A1A1336DD9E0AFB756A /* InjectHotReload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D780FFECF338759AA0EE9F6ECD7D9CF /* InjectHotReload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAE75918F0786809E98E99512119DF8D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A88D300283A8336C680C265374E92 /* ActivityIndicator.swift */; };
+		1EC4397F340B1D180220442FCEA8F844 /* Pods-SimpleQuran-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B11D54D1B5BEB4708D4402EDDCD1AD /* Pods-SimpleQuran-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		315824229466AE248C428F8DECCF1DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E101FAAF020699F2FCDF853CDC61F6D5 /* Pods-SimpleQuran-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA02768A8E7D1CC93564C4F6B363D7F3 /* Pods-SimpleQuran-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0FAC08D61EFA86B5AF70768499B8F88D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 043378393FD1F535CC5C8A82B0CAD32C;
-			remoteInfo = InjectHotReload;
-		};
-		95473A10ADB7ADA7436D90AA5A167ACA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD9F52E07CA8CCC9E5112A7D8C1CE821;
-			remoteInfo = AlertToast;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0CE8A7541B1B65E1C6ACE11C7CFDE8F6 /* KitFrameworks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KitFrameworks.swift; path = Sources/Inject/Integrations/KitFrameworks.swift; sourceTree = "<group>"; };
-		1093BFB2997FA4D3D210751C60791F33 /* InjectHotReload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InjectHotReload.release.xcconfig; sourceTree = "<group>"; };
-		19223F0A74C86C95660FDE7158FA24C4 /* InjectHotReload-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InjectHotReload-prefix.pch"; sourceTree = "<group>"; };
-		1CD8CB9C8EA47548DC26813786C4A442 /* Pods-SimpleQuran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleQuran.release.xcconfig"; sourceTree = "<group>"; };
-		1E96055358DD9245F01BE15F6AB46C7B /* AlertToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlertToast.release.xcconfig; sourceTree = "<group>"; };
-		26A666F81496540979E589D469B43728 /* Pods-SimpleQuran-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleQuran-Info.plist"; sourceTree = "<group>"; };
-		2D780FFECF338759AA0EE9F6ECD7D9CF /* InjectHotReload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InjectHotReload-umbrella.h"; sourceTree = "<group>"; };
-		2E8E3F1EBA3CD96B398AAE6493F53810 /* Inject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Inject.swift; path = Sources/Inject/Inject.swift; sourceTree = "<group>"; };
-		33B19164095B083BCDAE6C0D959986A7 /* InjectHotReload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InjectHotReload-dummy.m"; sourceTree = "<group>"; };
-		33DCEEBCCE5C6F1F74DE6A79149DD130 /* Pods-SimpleQuran-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleQuran-umbrella.h"; sourceTree = "<group>"; };
-		4E8A5E712217BA2ED913CC607E6641F5 /* Pods-SimpleQuran-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleQuran-acknowledgements.plist"; sourceTree = "<group>"; };
-		5658E52AC9C6521CCC16A10A6937C7A3 /* InjectHotReload */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InjectHotReload; path = InjectHotReload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56DD97CBA10A37573B8311AC1A4B3F4D /* Pods-SimpleQuran-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleQuran-frameworks.sh"; sourceTree = "<group>"; };
-		57418728CA26A1654D77109AC4635801 /* AlertToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlertToast.debug.xcconfig; sourceTree = "<group>"; };
-		5E2A88D300283A8336C680C265374E92 /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = Sources/AlertToast/ActivityIndicator.swift; sourceTree = "<group>"; };
-		66627E53E9DC7BB36FE5F45270B5ED45 /* AlertToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlertToast-Info.plist"; sourceTree = "<group>"; };
+		1534902502BF4975279BD08CFD9B3D2D /* Pods-SimpleQuran.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleQuran.modulemap"; sourceTree = "<group>"; };
+		1E937123BAE29AA4CC5C5AA36D2BF50A /* Pods-SimpleQuran-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleQuran-Info.plist"; sourceTree = "<group>"; };
+		25B11D54D1B5BEB4708D4402EDDCD1AD /* Pods-SimpleQuran-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleQuran-umbrella.h"; sourceTree = "<group>"; };
+		3C759406234A080FC8E83D2BF11E9EEA /* Pods-SimpleQuran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleQuran.debug.xcconfig"; sourceTree = "<group>"; };
+		69F20E9451B86AE431AC557B3C5C8BD1 /* Pods-SimpleQuran-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleQuran-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76C79C505E7072885BAB17B5254C510D /* AlertToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlertToast-dummy.m"; sourceTree = "<group>"; };
-		87B200243657FB56ABAE51CFB985A42F /* Pods-SimpleQuran.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleQuran.modulemap"; sourceTree = "<group>"; };
-		8FA9543E5C00610FCEB3056B7D2AF54A /* Pods-SimpleQuran-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleQuran-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A50F036BE0BFE618C67FA52B80377F3B /* AlertToast */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlertToast; path = AlertToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B166AA9764C195C88D154E8EA289B11E /* Pods-SimpleQuran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleQuran.debug.xcconfig"; sourceTree = "<group>"; };
-		BC7568A518E63AE8B8CBFA7A5271106E /* SwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUI.swift; path = Sources/Inject/Integrations/SwiftUI.swift; sourceTree = "<group>"; };
-		C0CDF4018882CFD3738CEBC71512DA6E /* InjectHotReload-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InjectHotReload-Info.plist"; sourceTree = "<group>"; };
-		C2422828387B98C67B17EB340DBA69D5 /* Hosts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hosts.swift; path = Sources/Inject/Integrations/Hosts.swift; sourceTree = "<group>"; };
-		C340372A2ECEAF97C39CAF133D418C0C /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Sources/AlertToast/BlurView.swift; sourceTree = "<group>"; };
-		D194A96A84D26A032B714FB889A11075 /* Pods-SimpleQuran */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SimpleQuran"; path = Pods_SimpleQuran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D882382EF77EADA9F51438947B829F97 /* Pods-SimpleQuran-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleQuran-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE4CC9C372B9AA3B4AAB75D37793224B /* AlertToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertToast.swift; path = Sources/AlertToast/AlertToast.swift; sourceTree = "<group>"; };
-		E568D9E14FBB480A4A3D318D3E66F574 /* InjectHotReload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InjectHotReload.modulemap; sourceTree = "<group>"; };
-		ED4FB99DC4B85593D8E65EB6D738D171 /* AlertToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertToast-prefix.pch"; sourceTree = "<group>"; };
-		F18DE4F2942E33365BB2795D7C1B711A /* AlertToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlertToast.modulemap; sourceTree = "<group>"; };
-		F1B2AE2F0938F94A6D634A4092DD67AD /* InjectHotReload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InjectHotReload.debug.xcconfig; sourceTree = "<group>"; };
-		FB4255B7B84DB1D708B6EA78F4E5BE85 /* AlertToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertToast-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEB702AF4F92EE0E36801661A0C537E /* Pods-SimpleQuran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleQuran.release.xcconfig"; sourceTree = "<group>"; };
+		D194A96A84D26A032B714FB889A11075 /* Pods_SimpleQuran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleQuran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01B5D43C063FDDE73A43CF11B9D2199 /* Pods-SimpleQuran-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleQuran-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA02768A8E7D1CC93564C4F6B363D7F3 /* Pods-SimpleQuran-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleQuran-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1060FF756F3D1979A2CBFE638BCA089F /* Frameworks */ = {
+		8BFED3ED8E9BEE1E183502153A36293A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC76D2D7B41417A89FFE2440EF21CAA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		286899C74CFA5B69A67EDAD10C578126 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0158F623865C131CFFA4FF53FCE8B77D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		347779031190EDC071A4F2E9073598F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C7E1FD0252DFA6033E7E08D5984D7B0 /* Foundation.framework in Frameworks */,
+				315824229466AE248C428F8DECCF1DD6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BC801D19E3A557B6EC48A2B4FA2777F /* Support Files */ = {
+		26E246F26A9AE69ED76ED3873D91AB08 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F18DE4F2942E33365BB2795D7C1B711A /* AlertToast.modulemap */,
-				76C79C505E7072885BAB17B5254C510D /* AlertToast-dummy.m */,
-				66627E53E9DC7BB36FE5F45270B5ED45 /* AlertToast-Info.plist */,
-				ED4FB99DC4B85593D8E65EB6D738D171 /* AlertToast-prefix.pch */,
-				FB4255B7B84DB1D708B6EA78F4E5BE85 /* AlertToast-umbrella.h */,
-				57418728CA26A1654D77109AC4635801 /* AlertToast.debug.xcconfig */,
-				1E96055358DD9245F01BE15F6AB46C7B /* AlertToast.release.xcconfig */,
+				3435AB1B014661D45ED4DEDDBA2E5754 /* Pods-SimpleQuran */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AlertToast";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		257093D4673B4090F30B118A97C33D81 /* Pods */ = {
+		3435AB1B014661D45ED4DEDDBA2E5754 /* Pods-SimpleQuran */ = {
 			isa = PBXGroup;
 			children = (
-				A572862C8DFC0CC044AA2AEF8876685B /* AlertToast */,
-				5E5E1BA19A5A71F38D98166BF147C612 /* InjectHotReload */,
+				1534902502BF4975279BD08CFD9B3D2D /* Pods-SimpleQuran.modulemap */,
+				69F20E9451B86AE431AC557B3C5C8BD1 /* Pods-SimpleQuran-acknowledgements.markdown */,
+				F01B5D43C063FDDE73A43CF11B9D2199 /* Pods-SimpleQuran-acknowledgements.plist */,
+				FA02768A8E7D1CC93564C4F6B363D7F3 /* Pods-SimpleQuran-dummy.m */,
+				1E937123BAE29AA4CC5C5AA36D2BF50A /* Pods-SimpleQuran-Info.plist */,
+				25B11D54D1B5BEB4708D4402EDDCD1AD /* Pods-SimpleQuran-umbrella.h */,
+				3C759406234A080FC8E83D2BF11E9EEA /* Pods-SimpleQuran.debug.xcconfig */,
+				9DEB702AF4F92EE0E36801661A0C537E /* Pods-SimpleQuran.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Pods-SimpleQuran";
+			path = "Target Support Files/Pods-SimpleQuran";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -140,52 +70,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5E5E1BA19A5A71F38D98166BF147C612 /* InjectHotReload */ = {
+		A950F0635FC3C1AF586E147664BAC297 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2422828387B98C67B17EB340DBA69D5 /* Hosts.swift */,
-				2E8E3F1EBA3CD96B398AAE6493F53810 /* Inject.swift */,
-				0CE8A7541B1B65E1C6ACE11C7CFDE8F6 /* KitFrameworks.swift */,
-				BC7568A518E63AE8B8CBFA7A5271106E /* SwiftUI.swift */,
-				60D6FDBC6E52158D913F533F8E76E40C /* Support Files */,
-			);
-			name = InjectHotReload;
-			path = InjectHotReload;
-			sourceTree = "<group>";
-		};
-		60D6FDBC6E52158D913F533F8E76E40C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E568D9E14FBB480A4A3D318D3E66F574 /* InjectHotReload.modulemap */,
-				33B19164095B083BCDAE6C0D959986A7 /* InjectHotReload-dummy.m */,
-				C0CDF4018882CFD3738CEBC71512DA6E /* InjectHotReload-Info.plist */,
-				19223F0A74C86C95660FDE7158FA24C4 /* InjectHotReload-prefix.pch */,
-				2D780FFECF338759AA0EE9F6ECD7D9CF /* InjectHotReload-umbrella.h */,
-				F1B2AE2F0938F94A6D634A4092DD67AD /* InjectHotReload.debug.xcconfig */,
-				1093BFB2997FA4D3D210751C60791F33 /* InjectHotReload.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/InjectHotReload";
-			sourceTree = "<group>";
-		};
-		A572862C8DFC0CC044AA2AEF8876685B /* AlertToast */ = {
-			isa = PBXGroup;
-			children = (
-				5E2A88D300283A8336C680C265374E92 /* ActivityIndicator.swift */,
-				DE4CC9C372B9AA3B4AAB75D37793224B /* AlertToast.swift */,
-				C340372A2ECEAF97C39CAF133D418C0C /* BlurView.swift */,
-				0BC801D19E3A557B6EC48A2B4FA2777F /* Support Files */,
-			);
-			name = AlertToast;
-			path = AlertToast;
-			sourceTree = "<group>";
-		};
-		C70F885DE33F015E1442F731BD7F3FA8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A50F036BE0BFE618C67FA52B80377F3B /* AlertToast */,
-				5658E52AC9C6521CCC16A10A6937C7A3 /* InjectHotReload */,
-				D194A96A84D26A032B714FB889A11075 /* Pods-SimpleQuran */,
+				D194A96A84D26A032B714FB889A11075 /* Pods_SimpleQuran.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,9 +83,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				257093D4673B4090F30B118A97C33D81 /* Pods */,
-				C70F885DE33F015E1442F731BD7F3FA8 /* Products */,
-				DED0EA4C18665FCC3DBE68A36812EA7D /* Targets Support Files */,
+				A950F0635FC3C1AF586E147664BAC297 /* Products */,
+				26E246F26A9AE69ED76ED3873D91AB08 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,115 +96,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DED0EA4C18665FCC3DBE68A36812EA7D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FABE56F911976BED2639F1360F4D0246 /* Pods-SimpleQuran */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FABE56F911976BED2639F1360F4D0246 /* Pods-SimpleQuran */ = {
-			isa = PBXGroup;
-			children = (
-				87B200243657FB56ABAE51CFB985A42F /* Pods-SimpleQuran.modulemap */,
-				D882382EF77EADA9F51438947B829F97 /* Pods-SimpleQuran-acknowledgements.markdown */,
-				4E8A5E712217BA2ED913CC607E6641F5 /* Pods-SimpleQuran-acknowledgements.plist */,
-				8FA9543E5C00610FCEB3056B7D2AF54A /* Pods-SimpleQuran-dummy.m */,
-				56DD97CBA10A37573B8311AC1A4B3F4D /* Pods-SimpleQuran-frameworks.sh */,
-				26A666F81496540979E589D469B43728 /* Pods-SimpleQuran-Info.plist */,
-				33DCEEBCCE5C6F1F74DE6A79149DD130 /* Pods-SimpleQuran-umbrella.h */,
-				B166AA9764C195C88D154E8EA289B11E /* Pods-SimpleQuran.debug.xcconfig */,
-				1CD8CB9C8EA47548DC26813786C4A442 /* Pods-SimpleQuran.release.xcconfig */,
-			);
-			name = "Pods-SimpleQuran";
-			path = "Target Support Files/Pods-SimpleQuran";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		44A84C91FAC6DAD40F1A43DEF8DDCA81 /* Headers */ = {
+		B1A15AAD05DB128733DF291379D842A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA08F424ACCD3B0D6222BEF90912961 /* AlertToast-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B884D1B04E34080876DEF0219543170E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6E1AD4787DA3A1A1336DD9E0AFB756A /* InjectHotReload-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C13C9F317612A3115C7A972D3D2DCB6B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				633E508FC7A75E6B1265DCF8E8AF0A1B /* Pods-SimpleQuran-umbrella.h in Headers */,
+				1EC4397F340B1D180220442FCEA8F844 /* Pods-SimpleQuran-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		043378393FD1F535CC5C8A82B0CAD32C /* InjectHotReload */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 91CFF4ADD207FB9BE371E0E1AF35F908 /* Build configuration list for PBXNativeTarget "InjectHotReload" */;
-			buildPhases = (
-				B884D1B04E34080876DEF0219543170E /* Headers */,
-				92B947A7A5493E22A0FAE9FF58F9EDAB /* Sources */,
-				286899C74CFA5B69A67EDAD10C578126 /* Frameworks */,
-				9E05271B1AFA2E9A2A80AFDC980F2EA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = InjectHotReload;
-			productName = InjectHotReload;
-			productReference = 5658E52AC9C6521CCC16A10A6937C7A3 /* InjectHotReload */;
-			productType = "com.apple.product-type.framework";
-		};
 		6776D03133F6160F63775884A1B5E348 /* Pods-SimpleQuran */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B690993CA2A4540A95812E14B5962AF8 /* Build configuration list for PBXNativeTarget "Pods-SimpleQuran" */;
+			buildConfigurationList = A0ACC0A26435D537378CD80A8E18F25D /* Build configuration list for PBXNativeTarget "Pods-SimpleQuran" */;
 			buildPhases = (
-				C13C9F317612A3115C7A972D3D2DCB6B /* Headers */,
-				8AF059CA59DCEF38ADA10F1FD7B338C9 /* Sources */,
-				1060FF756F3D1979A2CBFE638BCA089F /* Frameworks */,
-				6334A4D7AE94D358AAD3E269110B4A95 /* Resources */,
+				B1A15AAD05DB128733DF291379D842A7 /* Headers */,
+				101FF26CA98D7E81331F033295B30CBB /* Sources */,
+				8BFED3ED8E9BEE1E183502153A36293A /* Frameworks */,
+				2333480FC22E7A2272667A59988FDAE7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B8E627F974963F3C669B814F53B7446 /* PBXTargetDependency */,
-				D5128F33BB519A8A92A918A6F87D4D29 /* PBXTargetDependency */,
 			);
 			name = "Pods-SimpleQuran";
 			productName = Pods_SimpleQuran;
-			productReference = D194A96A84D26A032B714FB889A11075 /* Pods-SimpleQuran */;
-			productType = "com.apple.product-type.framework";
-		};
-		BD9F52E07CA8CCC9E5112A7D8C1CE821 /* AlertToast */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 058CF4B13CD220E4F99FC2BAEA8B57E3 /* Build configuration list for PBXNativeTarget "AlertToast" */;
-			buildPhases = (
-				44A84C91FAC6DAD40F1A43DEF8DDCA81 /* Headers */,
-				E433AAB9933A759630771F55C9A60EBF /* Sources */,
-				347779031190EDC071A4F2E9073598F0 /* Frameworks */,
-				59FC49F4186BE3B64D14966824FEF367 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AlertToast;
-			productName = AlertToast;
-			productReference = A50F036BE0BFE618C67FA52B80377F3B /* AlertToast */;
+			productReference = D194A96A84D26A032B714FB889A11075 /* Pods_SimpleQuran.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -338,33 +146,17 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C70F885DE33F015E1442F731BD7F3FA8 /* Products */;
+			productRefGroup = A950F0635FC3C1AF586E147664BAC297 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD9F52E07CA8CCC9E5112A7D8C1CE821 /* AlertToast */,
-				043378393FD1F535CC5C8A82B0CAD32C /* InjectHotReload */,
 				6776D03133F6160F63775884A1B5E348 /* Pods-SimpleQuran */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		59FC49F4186BE3B64D14966824FEF367 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6334A4D7AE94D358AAD3E269110B4A95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E05271B1AFA2E9A2A80AFDC980F2EA1 /* Resources */ = {
+		2333480FC22E7A2272667A59988FDAE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,94 +166,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8AF059CA59DCEF38ADA10F1FD7B338C9 /* Sources */ = {
+		101FF26CA98D7E81331F033295B30CBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47AD4C479EFFE35F6F67942FC570DCF7 /* Pods-SimpleQuran-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92B947A7A5493E22A0FAE9FF58F9EDAB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D630E2B16A33B99CDC644886A0744A7 /* Hosts.swift in Sources */,
-				61D1D4F9D20F037A1DE5285FD465D338 /* Inject.swift in Sources */,
-				7D823277A0F4648296359B25793612B4 /* InjectHotReload-dummy.m in Sources */,
-				90E25202552407CD82CC306981BA8425 /* KitFrameworks.swift in Sources */,
-				1DF4A558FDC21628E1ACA9FF5B6069F3 /* SwiftUI.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E433AAB9933A759630771F55C9A60EBF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAE75918F0786809E98E99512119DF8D /* ActivityIndicator.swift in Sources */,
-				89068BEF39B046B28FD6DA14201044DE /* AlertToast.swift in Sources */,
-				ABCC96A3F5A122791DAB8A1CFA9BD50D /* AlertToast-dummy.m in Sources */,
-				481F3BE2185022F134DFD932BBD79A40 /* BlurView.swift in Sources */,
+				E101FAAF020699F2FCDF853CDC61F6D5 /* Pods-SimpleQuran-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6B8E627F974963F3C669B814F53B7446 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AlertToast;
-			target = BD9F52E07CA8CCC9E5112A7D8C1CE821 /* AlertToast */;
-			targetProxy = 95473A10ADB7ADA7436D90AA5A167ACA /* PBXContainerItemProxy */;
-		};
-		D5128F33BB519A8A92A918A6F87D4D29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = InjectHotReload;
-			target = 043378393FD1F535CC5C8A82B0CAD32C /* InjectHotReload */;
-			targetProxy = 0FAC08D61EFA86B5AF70768499B8F88D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		048AFB9BE277D96ECBD14AF2F4DFDCB9 /* Release */ = {
+		118D984B3841FFC5E5DBBF040E5CD8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E96055358DD9245F01BE15F6AB46C7B /* AlertToast.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AlertToast/AlertToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlertToast/AlertToast-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AlertToast/AlertToast.modulemap";
-				PRODUCT_MODULE_NAME = AlertToast;
-				PRODUCT_NAME = AlertToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		11AC40C8408AAF329938F73E10E3C5C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CD8CB9C8EA47548DC26813786C4A442 /* Pods-SimpleQuran.release.xcconfig */;
+			baseConfigurationReference = 9DEB702AF4F92EE0E36801661A0C537E /* Pods-SimpleQuran.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -490,84 +208,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3A39C2753F298AB3BF10F7904435A326 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B166AA9764C195C88D154E8EA289B11E /* Pods-SimpleQuran.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		404A7EF10743ED8A6915F31CCDDBD89A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B2AE2F0938F94A6D634A4092DD67AD /* InjectHotReload.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/InjectHotReload/InjectHotReload-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/InjectHotReload/InjectHotReload-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/InjectHotReload/InjectHotReload.modulemap";
-				PRODUCT_MODULE_NAME = InjectHotReload;
-				PRODUCT_NAME = InjectHotReload;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		75859CC7711437ED1382E62AB6460457 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -697,10 +345,11 @@
 			};
 			name = Release;
 		};
-		B7C854466008CDE402EC68A4D7263738 /* Debug */ = {
+		B700CE7BC9D989319B603BE72E653AD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57418728CA26A1654D77109AC4635801 /* AlertToast.debug.xcconfig */;
+			baseConfigurationReference = 3C759406234A080FC8E83D2BF11E9EEA /* Pods-SimpleQuran.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -710,76 +359,34 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AlertToast/AlertToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlertToast/AlertToast-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/AlertToast/AlertToast.modulemap";
-				PRODUCT_MODULE_NAME = AlertToast;
-				PRODUCT_NAME = AlertToast;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleQuran/Pods-SimpleQuran.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FB3131EDD6AC1E39EF220E12AFD1D9AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1093BFB2997FA4D3D210751C60791F33 /* InjectHotReload.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/InjectHotReload/InjectHotReload-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/InjectHotReload/InjectHotReload-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/InjectHotReload/InjectHotReload.modulemap";
-				PRODUCT_MODULE_NAME = InjectHotReload;
-				PRODUCT_NAME = InjectHotReload;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		058CF4B13CD220E4F99FC2BAEA8B57E3 /* Build configuration list for PBXNativeTarget "AlertToast" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B7C854466008CDE402EC68A4D7263738 /* Debug */,
-				048AFB9BE277D96ECBD14AF2F4DFDCB9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -789,20 +396,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91CFF4ADD207FB9BE371E0E1AF35F908 /* Build configuration list for PBXNativeTarget "InjectHotReload" */ = {
+		A0ACC0A26435D537378CD80A8E18F25D /* Build configuration list for PBXNativeTarget "Pods-SimpleQuran" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				404A7EF10743ED8A6915F31CCDDBD89A /* Debug */,
-				FB3131EDD6AC1E39EF220E12AFD1D9AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B690993CA2A4540A95812E14B5962AF8 /* Build configuration list for PBXNativeTarget "Pods-SimpleQuran" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A39C2753F298AB3BF10F7904435A326 /* Debug */,
-				11AC40C8408AAF329938F73E10E3C5C9 /* Release */,
+				B700CE7BC9D989319B603BE72E653AD6 /* Debug */,
+				118D984B3841FFC5E5DBBF040E5CD8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

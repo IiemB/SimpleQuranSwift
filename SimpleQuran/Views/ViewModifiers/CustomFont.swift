@@ -27,13 +27,16 @@ struct CustomNavTitleFont: ViewModifier {
         content
             .animation(.spring, value: settingsViewModel.fontSize)
             .animation(.spring, value: settingsViewModel.fontSize)
+        #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
+        #endif
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     Text(title)
                         .font(.custom(settingsViewModel.fontStyle.value, size: 20))
                 }
             }
+            .navigationTitle(title)
     }
 }
 
@@ -49,6 +52,12 @@ struct FormattedStyleNumber: ViewModifier {
 #Preview {
     Text("Hello, world!")
         .modifier(FormattedStyleNumber())
+}
+
+extension Text {
+    func withFormattedStyleNumber(_ settingsViewModel: SettingsViewModel) -> Text {
+        font(.custom(CustomFontStyle.isepMisbah.value, size: CGFloat(settingsViewModel.fontSize), relativeTo: .body))
+    }
 }
 
 extension View {

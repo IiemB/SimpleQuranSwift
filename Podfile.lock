@@ -1,20 +1,3 @@
-PODS:
-  - AlertToast (1.3.9)
-  - InjectHotReload (1.2.2)
-
-DEPENDENCIES:
-  - AlertToast
-  - InjectHotReload
-
-SPEC REPOS:
-  trunk:
-    - AlertToast
-    - InjectHotReload
-
-SPEC CHECKSUMS:
-  AlertToast: e8db15da727beff75500bcf33a78cd617f408fa1
-  InjectHotReload: e524b7c46ec063d84e407e65df5fe251cde19b32
-
-PODFILE CHECKSUM: 3ad0fa0f900ef2d64a937faad3ab31776bca03b5
+PODFILE CHECKSUM: e05957b84a8f281575e6119deda48abc7cf386e1
 
 COCOAPODS: 1.13.0
